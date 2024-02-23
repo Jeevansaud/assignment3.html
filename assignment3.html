@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refrigerator</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 980px;
+            margin: 0 auto;
+            background-color: #bab2b2;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+            /* Clear floats */
+        }
+
+        .banner {
+            background-color: #f9f7f7;
+            padding: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            /* Clear floats */
+
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 24px;
+            float: left;
+            color: #bd4646;
+        }
+
+        .banner img {
+            max-width: 150px;
+            height: auto;
+            float: right;
+        }
+
+        .product-container {
+            overflow: hidden;
+            /* Clear floats */
+            margin-top: 20px;
+        }
+
+        .product-image {
+            float: left;
+            width: 30%;
+            /* Adjust width as needed */
+            margin-right: 20px;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-details {
+            float: right;
+            /* Float to the right */
+            width: 66%;
+            /* Adjust width as needed */
+        }
+
+        .product-details h2 {
+            font-size: 20px;
+            margin-top: 0;
+            color: #bd4646;
+        }
+
+        .product-details p {
+            margin-bottom: 10px;
+        }
+
+
+
+        .links {
+            margin-top: 20px;
+            text-align: center;
+            
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #f2f2f2;
+            border-radius: 10px;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #bd4646;
+            color: #fff;
+            border: none;
+        }
+
+        tr:hover {
+            background-color: #a398df;
+        }
+
+        .hotspot-map {
+            clear: both;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .hotspot {
+            position: absolute;
+            background-color: red;
+            /* For visualization */
+            border-radius: 50%;
+            /* Make circular */
+        }
+
+        .hotspot-link {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <h1>Refrigerator</h1>
+            <a href="assignment3.html"><img src="images/lg_samsung.png" alt="Company Logo"></a>
+        </div>
+
+        <div class="product-container">
+            <div class="product-image">
+                <img src="https://www.hindustantimes.com/ht-img/img/2023/09/29/1600x900/best_refrigerator_brands_of_India_1695996628946_1695996649217.jpg"
+                    alt="Product Image">
+            </div>
+
+            <div class="product-details">
+                <h2>Best refrigerator brands of India</h2>
+                <p>Opting for a branded refrigerator is a wise choice for several compelling reasons. First and
+                    foremost,
+                    renowned refrigerator brands invest heavily in research and development, ensuring that their
+                    products
+                    incorporate the latest technological advancements, which translate into superior cooling
+                    performance,
+                    energy efficiency, and innovative features. Branded refrigerators also come with robust customer
+                    support
+                    and service networks, guaranteeing prompt assistance in case of issues. Moreover, these brands often
+                    offer comprehensive warranties, providing peace of mind and long-term reliability.</p>
+                <p>India's refrigerator market is replete with a wide array of brands, each striving to meet the diverse
+                    needs of Indian households. Two standout brands in this highly competitive landscape are LG and
+                    Samsung.
+                    Having said so, other brands such as Whirlpool, Haier, Panasonic are also popular.
+                </p>
+                <ul>
+                    <li>Triple-Door Design for Enhanced Storage</li>
+                    <li>Advanced Protton Technology for Freshness</li>
+                    <li>Microblock Technology for Preventing Bacterial Growth</li>
+                    <li>Twin Inverter Technology for Efficient Cooling</li>
+                    <li>Digital Display with Touch Controls</li>
+                </ul>
+
+            </div>
+
+            <div class="links">
+                <a href="assignment3.html">Home Page</a> | <a href="Details.html">View Larger Picture</a>
+            </div>
+        </div>
+
+        <table>
+            <tr>
+                <th>Product Description</th>
+                <th>Price</th>
+                <th>Rating</th>
+            </tr>
+            <tr>
+                <td>Whirlpool 330 L Frost Free Triple-Door Refrigerator(FP 343D Protton Roy, Alpha Steel) </td>
+                <td>₹35190</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Haier 278 L 3 Star Double Door Frost Free Refrigerator Appliance, Twin Inverter Technology
+                    (HEF-27TMS, Moon Silver,Convertible, 2022 Model) </td>
+                <td>₹29500</td>
+                <td>3.8</td>
+            </tr>
+            <tr>
+                <td>LG 398 L 2 Star Frost-Free Smart Inverter Double Door Refrigerator (GL-N422SDSY, Dazzle Steel,
+                    Express Freeze, Gross Volume – 423 Ltr.)</td>
+                <td>₹44990</td>
+                <td>4.3</td>
+            </tr>
+            <tr>
+                <td>Hisense 688 L WI-FI Enabled Inverter Frost-Free Side-by-Side Door Inverter Refrigerator
+                    (RS688N4SSVWI, Stainless Steel Finish with Inverter Compressor)</td>
+                <td>₹64990</td>
+                <td>4.1</td>
+            </tr>
+        </table>
+
+        <div class="hotspot-map">
+            <img src="https://www.tripsavvy.com/thmb/17ieK6dOc27juOeyy0JDfHkzojI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2000_with_permission_of_Natural_Resources_Canada-56a3887d3df78cf7727de0b0.jpg"
+                alt="Map of Canada" width="600" height="450" usemap="#canadaMap">
+                <map name="canadaMap">
+                    <area shape="poly" coords="128,306,124,313,130,320,,127,326,123,340,115,348,111,360,117,368,119,378,123,390,129,396,128,407,124,418,114,414,103,410,91,404,76,399,60,394,56,380,56,364,58,346,58,323,65,313,62,302,67,289,67,279,66,266,53,259,76,270,85,273,92,280,101,284,109,292,122,296
+                    " href="https://stores.bestbuy.ca/en-ca/bc" alt="BC"> 
+                    <area shape="poly" coords="293,366,290,373,285,380,272,389,276,381,267,401,264,412,264,421,264,433,273,433,280,444,293,438,303,431,312,433,323,437,331,441,335,449,352,455,343,452,365,456,371,467,367,473,362,479,362,489,360,497,372,487,380,476,386,472,395,462,381,458,367,448,359,436,355,420,351,412,342,402,334,392,330,384,327,376,319,376,310,373,304,372,302,370" href="https://stores.bestbuy.ca/en-ca/on" alt="ON">
+                    <area shape="poly" coords="184,324,183,328,183,328,182,354,183,341,176,368,175,378,172,388,171,402,166,420,166,413,177,425,187,428,197,432,197,432,209,434,211,421,211,406,211,392,211,382,211,376,212,356,212,345,215,332,206,329,199,327,195,327" href="https://stores.bestbuy.ca/en-ca/sk" alt="SK">
+                </map>
+
+        </div>
+    </div>
+</body>
+
+</html>
